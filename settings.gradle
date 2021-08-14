@@ -1,2 +1,4 @@
 rootProject.name = "HypixelAPI"
-includeBuild 'CoolSpyLib'
+includeBuild('CoolSpyLib') {
+    name = 'HypixelAPI:CoolSpyLib'
+}
